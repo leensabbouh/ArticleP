@@ -4,15 +4,21 @@ import Navbar from './Navbar'
 function Home() {
   return (
 <div className='text-black text-center'>
-<img src={home} className="w-full bg-cover bg-contain h-screen bg-no-repeat relative" />
-  <div className='p-8 h-full absolute inset-0'>
+                  
+                
+<div className='relative'>
+<img src={home} className="w-full bg-cover bg-contain h-screen bg-no-repeat " />
+<div className='bg-violet-300 opacity-20 h-full absolute inset-0 '>
+                                  </div>
+</div>
+  <div className='p-8 h-full absolute inset-0 '>
     <Navbar/>
     
-<div className=' max-w-3xl my-28 m-auto '>
+<div className=' max-w-3xl my-28 m-auto'>
     <h1 className='text-5xl font-bold my-10'>
-                جشع طبي أو تساهل مشرط القيصرية يلقي بالمواليد إلى الحاضنات
+    انتهاك حق الأمومة في منظمات المجتمع المدني السوري... نساء يخفين حملهن
     </h1>
-    <p  className='text-lg font-bold'>
+    <p  className='text-lg font-bold text-black'>
     تحقيق سارة جمال
     </p>
     </div>

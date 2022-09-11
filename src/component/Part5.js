@@ -1,17 +1,14 @@
 import React from 'react'
-import Text from './Text'
-import bgtext from '../images/f.jpg'
 import Avarage from './Avarage'
+import Text2 from './text/Text2'
 
 function Part5() {
   return (
-    <div className='my-9 text-center  p-10'>
-                <h2 className='text-xl font-bold my-8'>ما هي مدة اجازة الأمومة</h2> 
-                <div className='relative'>
-                <img src={bgtext} className="w-full h-3/4 bg-cover h-screen bg-no-repeat" />
-                <div className='absolute  inset-0'>            
-                <Text/> 
-                </div>  </div>
+    <div className='my-9 text-center'>
+                <h2 className='text-xl font-bold my-3'>حق النساء العاملات بإجازة الأمومة مسلوب</h2> 
+                        
+                <Text2/> 
+               
                 <Avarage/>   
          </div>
   )

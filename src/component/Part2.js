@@ -1,12 +1,12 @@
 import React from 'react'
 import Map from './Map'
-import Text from './Text'
+import Text7 from './text/text7'
 
 function Part2() {
   return (
-    <div className='my-9 text-center p-10'>
-         <h2 className='text-xl font-bold my-8'>بلد الترخيص</h2>
-         <Text/>
+    <div className='my-9 text-center px-10'>
+         <h2 className='text-xl font-bold my-8'>مزاجية المنظمات ومسؤولية الجهات المانحة </h2>
+         <Text7/>
          <Map/></div>
   )
 }

@@ -4,10 +4,10 @@ import Chart from "react-google-charts";
 
 function YorN() {
   return (
-    <div className='m-auto'>
+    <div className='m-auto w-3/5'>
      <Chart
-    width={"500px"}
-    height={"500px"}
+    width={"100%"}
+    height={"300px"}
     chartType="PieChart"
     loader={<div>Loading Pie Chart</div>}
    
